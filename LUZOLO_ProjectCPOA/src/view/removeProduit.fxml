@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="302.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/8.0.261" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controler.ControlerProduit">
+   <children>
+      <Pane prefHeight="302.0" prefWidth="390.0">
+         <children>
+            <Label layoutX="33.0" layoutY="57.0" text="Saisir l'identifiant du produit que vous soihaitez supprimer" />
+            <TextField fx:id="id_produit" layoutX="108.0" layoutY="96.0" />
+            <Button fx:id="btn_supp" layoutX="188.0" layoutY="170.0" mnemonicParsing="false" onAction="#deleteModelProduit" text="Supprimer definitivement " />
+            <Label layoutX="42.0" layoutY="231.0" text="Label" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

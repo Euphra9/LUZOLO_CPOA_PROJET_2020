@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.261" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controler.HomeControler">
+   <children>
+      <Pane prefHeight="146.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="lbl_bienvenue" layoutX="14.0" layoutY="14.0" text="Bienvenue" />
+         </children>
+      </Pane>
+      <Pane prefHeight="163.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="btn_openProduit" layoutX="59.0" layoutY="28.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="91.0" onAction="#openProduitStage" text="Produit" />
+            <Button fx:id="btn_openCategorie" layoutX="180.0" layoutY="28.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="91.0" onAction="#openCategorieStage" text="Catégorie" />
+            <Button fx:id="btn_openCient" layoutX="312.0" layoutY="28.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="91.0" onAction="#openClientStage" text="Client" />
+            <Button fx:id="btn_openCommande" layoutX="424.0" layoutY="28.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="91.0" onAction="#openCommandeStage" text="Commande" />
+         </children>
+      </Pane>
+      <Pane prefHeight="117.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="70.0" layoutY="23.0" text="IUT Metz" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
